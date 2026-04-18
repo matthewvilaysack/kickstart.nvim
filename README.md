@@ -1,5 +1,9 @@
 # kickstart.nvim
 
+## Matt's nvim config (began 4/17/26 - 4/18/26)
+
+
+
 ## Introduction
 
 A starting point for Neovim that is:
