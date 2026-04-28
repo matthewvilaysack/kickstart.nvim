@@ -179,6 +179,11 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 -- Find and replace word under cursor globally
 vim.keymap.set('n', '<leader>r', ':%s/<C-r><C-w>/<C-r><C-w>/gI<Left><Left><Left>', { desc = '[R]eplace word under cursor globally' })
 
+-- Split management
+vim.keymap.set('n', '<leader>sv', '<C-w>v', { desc = '[S]plit [V]ertical' })
+vim.keymap.set('n', '<leader>sh', '<C-w>s', { desc = '[S]plit [H]orizontal' })
+vim.keymap.set('n', '<leader>sx', '<cmd>close<CR>', { desc = '[S]plit Close' })
+
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
 -- is not what someone will guess without a bit more experience.
